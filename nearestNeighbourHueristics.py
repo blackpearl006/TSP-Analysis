@@ -6,3 +6,5 @@ def nearestNeighbourHueristics(n,tsp):
         if i < minValue: minValue=i
     return path
 
+# This is not the full implementation
+# We can Improve the Nearest Neighbour Hueristics if we choose different start node for each iterration of the nearestNeighbourHueristics call
